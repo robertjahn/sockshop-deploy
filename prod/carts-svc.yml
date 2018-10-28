@@ -4,6 +4,8 @@ metadata:
   name: carts
   labels:
     app: carts
+    version: v1
+    env: stage
   namespace: prod
 spec:
   ports:
