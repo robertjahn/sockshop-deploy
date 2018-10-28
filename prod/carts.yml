@@ -11,6 +11,7 @@ spec:
       labels:
         app: carts
         version: v1
+        env: prod
     spec:
       containers:
       - name: carts
