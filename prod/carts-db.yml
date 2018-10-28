@@ -3,7 +3,9 @@ kind: Deployment
 metadata:
   name: carts-db
   labels:
-    name: carts-db
+    app: carts-db
+    version: v1
+    env: prod
   namespace: stage
 spec:
   replicas: 1
