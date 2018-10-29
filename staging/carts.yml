@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: carts
-        image: robjahn/cart:0.4.15-SNAPHOT-124
+        image: robjahn/cart:0.4.15-SNAPHOT-125
         env:
         - name: JAVA_OPTS
           value: -Xms128m -Xmx512m -XX:PermSize=128m -XX:MaxPermSize=128m -XX:+UseG1GC -Djava.security.egd=file:/dev/urandom
